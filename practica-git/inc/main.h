@@ -21,6 +21,6 @@
         ERROR
     } status_t;
 
-    status_t read_stack( stack_t **, operation_t * );
+    status_t read_buffer( stack_t **, operation_t * );
 
 #endif /*_MAIN_H_*/

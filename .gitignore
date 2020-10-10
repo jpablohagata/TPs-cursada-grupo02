@@ -3,6 +3,6 @@
 .settings
 
 projects/*/out/*
-practica-git/*/out/*
+practica-git/out/*
 *.exe
 

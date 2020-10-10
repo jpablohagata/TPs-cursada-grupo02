@@ -7,8 +7,8 @@ int main (void) {
 	double result;
 
 	// Read stdin and validate
-	if ( read_stack( &number_stack, &operation ) == ERROR ) {
-		printf("Ingreso no valido.\n");
+	if ( read_buffer( &number_stack, &operation ) != SUCCESS ) {
+		printf( "Ingreso no valido.\n" );
 		stack_destroy( &number_stack );
 		return EXIT_FAILURE;
 	}
@@ -41,7 +41,7 @@ int main (void) {
 	
 }
 
-status_t read_stack( stack_t ** number_stack, operation_t * op ){
+status_t read_buffer( stack_t ** number_stack, operation_t * op ){
 	char buffer[BUFFER_SIZE];
 	unsigned stack_size = 0;
 	double input = 0;

@@ -1,65 +1,67 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
-#include <stack.h>
+#include "main.h"
 
-typedef enum operacion_t{SUM,MULT}operacion_t;
-stack_t * numStack = NULL;
+int main (void) {
 
-void free_mem(){
-	stack_destroy(&numStack);
-}
+	stack_t * number_stack = stack_create();
+	operation_t operation;
+	double result;
 
-int main(int argc, char const *argv[]){
-	operacion_t operacion;
-	double acumulado = 0;
-	double number;
-
-	//Validacion de argumentos
-	if(argc < 3){
-		puts("Faltan argumentos");
+	// Read stdin and validate
+	if ( read_stack( &number_stack, &operation ) == ERROR ) {
+		printf("Ingreso no valido.\n");
+		stack_destroy( &number_stack );
 		return EXIT_FAILURE;
 	}
 
-	numStack = stack_create();
-	atexit(free_mem);
+	// Initialization for each case
+	switch (operation) {
+		case SUM: result = 0; break;
+		case MULT: result = 1; break;
+	}
 
-	for(register int i=1 ; i<argc ; i++){
-		number = atof(argv[i]);
-		if(number < 1 || number > 10){
-				puts("Numero invalido. El numero ingresado debe estar entre 1 y 10");
-		return EXIT_FAILURE;
-		}else{
-			stack_push(numStack,number);
+	// Operate with the stack
+	while ( number_stack != NULL ) {
+		switch (operation) {
+			case SUM:
+				result+= stack_pop(&number_stack);
+				break;
+
+			case MULT:
+				result*= stack_pop(&number_stack);
+				break;
 		}
 	}
-	
-	if(strcmp(argv[argc-1],"sum")){
-		operacion = SUM;
-	}
-	else if(strcmp(argv[argc-1],"mult")){
-		operacion = MULT;
-	}	
-	else{
-		puts("Operacion invalida");
-		return EXIT_FAILURE;
-	}
 
-	while(!(number = stack_pop(&numStack))){
-		switch(operacion){
-			case SUM:
-				acumulado = acumulado * number;
-				break;
-			case MULT:
-				acumulado = acumulado + number;
-				break;
-			default:
-				break;
-		}	
-	}
-	
+	// Print result
+	printf( "El resultado es: %f\n", result );	
 
-	printf("%s%f\n","El resultado es:",acumulado);	
+	// Free memory and exit
+	stack_destroy( &number_stack );
 	return EXIT_SUCCESS;
+	
+}
+
+status_t read_stack( stack_t ** number_stack, operation_t * op ){
+	char buffer[BUFFER_SIZE];
+	unsigned stack_size = 0;
+	double input = 0;
+	char * ptr;
+
+	while ( fgets( buffer, BUFFER_SIZE, stdin ) ) {
+		
+		input = strtod(buffer, &ptr);
+		if ( strlen(ptr) > 1 ) break;
+
+		stack_push(number_stack, input);
+		
+		stack_size++;
+		if ( stack_size >= MAX_STACK_SIZE ) break;
+	}
+
+	// TODO: agregar diccionario y mayusculas/minusculas
+	if ( strncmp(ptr, "sum", 3) == 0 ) *op = SUM;
+	else if ( strncmp(ptr, "mult", 4) == 0 ) *op = MULT;
+	else return ERROR;
+
+	return SUCCESS;
 }

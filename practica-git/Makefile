@@ -5,10 +5,11 @@ OBJECTS = $(foreach file, $(SRC), out/$(basename $(notdir $(file))).o)
 
 CC = gcc
 CFLAGS = -Wall -std=c99 -Iinc
+OUTPUT = main.exe
 
 all: out $(OBJECTS)
 	@echo Building...
-	@$(CC) -o main.exe $(OBJECTS) -lm
+	@$(CC) -o $(OUTPUT) $(OBJECTS) -lm
 	@echo Done
 
 out:

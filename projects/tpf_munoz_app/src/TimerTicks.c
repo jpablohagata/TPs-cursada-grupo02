@@ -39,8 +39,9 @@
 /** \addtogroup statechart Simple UML Statechart example.
  ** @{ */
 
-#include "Application.h"
-#include "TimerTicks.h"
+#include "../../tpf_munoz_app/inc/TimerTicks.h"
+
+#include "Tpf_app.h"
 
 
 void InitTimerTicks(TimerTicks *list, uint32_t len)

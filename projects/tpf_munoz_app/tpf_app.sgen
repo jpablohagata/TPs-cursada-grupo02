@@ -1,6 +1,6 @@
 GeneratorModel for yakindu::c {
 
-	statechart application {
+	statechart tpf_app {
 
 		feature Outlet {
 			targetProject = "TPs-cursada-grupo02"

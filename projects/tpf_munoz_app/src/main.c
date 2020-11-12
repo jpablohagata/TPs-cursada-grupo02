@@ -39,16 +39,16 @@
  ** @{ */
 
 /*==================[inclusions]=============================================*/
-#include "Application.h"
-#include "main.h"
+#include "../../tpf_munoz_app/inc/main.h"
 
+#include "../../tpf_munoz_app/inc/TimerTicks.h"
+#include "Tpf_app.h"
 #include "sapi.h"       // <= sAPI header
 
 /* Include statechart header file. Be sure you run the statechart C code
  * generation tool!
  */
 
-#include "TimerTicks.h"
 
 
 /*==================[macros and definitions]=================================*/
@@ -62,10 +62,10 @@
 volatile bool SysTick_Time_Flag = false;
 
 /*! This is a state machine */
-static Application statechart;
+static Tpf_app statechart;
 
 /*! This is a timed state machine that requires timer services */
-#define NOF_TIMERS (sizeof(ApplicationTimeEvents)/sizeof(sc_boolean))
+#define NOF_TIMERS (sizeof(Tpf_appTimeEvents)/sizeof(sc_boolean))
 
 TimerTicks ticks[NOF_TIMERS];
 
@@ -109,7 +109,7 @@ TimerTicks ticks[NOF_TIMERS];
  * @param onoff state machine operation parameter
  */
 
-void applicationIface_opLED( Application* handle, sc_integer LEDNumber, sc_boolean State )
+void tpf_appIface_opLED( Tpf_app* handle, sc_integer LEDNumber, sc_boolean State )
 {
 	gpioWrite( (LEDR + LEDNumber), State );
 }
@@ -128,7 +128,7 @@ void applicationIface_opLED( Application* handle, sc_integer LEDNumber, sc_boole
  *  \periodic Indicates the the time event must be raised periodically until
  *   the timer is unset
  */
-void application_setTimer( Application* handle, const sc_eventid evid, const sc_integer time_ms, const sc_boolean periodic )
+void tpf_app_setTimer( Tpf_app* handle, const sc_eventid evid, const sc_integer time_ms, const sc_boolean periodic )
 {
 	SetNewTimerTick(ticks, NOF_TIMERS, evid, time_ms, periodic);
 }
@@ -140,7 +140,7 @@ void application_setTimer( Application* handle, const sc_eventid evid, const sc_
  *  state when a state will be left.
  *  \param evid An unique identifier of the event.
  */
-void application_unsetTimer( Application* handle, const sc_eventid evid )
+void tpf_app_unsetTimer( Tpf_app* handle, const sc_eventid evid )
 {
 	UnsetTimerTick( ticks, NOF_TIMERS, evid );
 }
@@ -196,8 +196,8 @@ int main(void)
 	InitTimerTicks( ticks, NOF_TIMERS );
 
 	/* Statechart Initialization */
-	application_init( &statechart );
-	application_enter( &statechart );
+	tpf_app_init( &statechart );
+	tpf_app_enter( &statechart );
 
 	/* LED state is toggled in the main program */
 	while (1) {
@@ -221,7 +221,7 @@ int main(void)
 				if (IsPendEvent( ticks, NOF_TIMERS, ticks[i].evid ) == true) {
 
 					/* Then Raise an Event -> Ticks.evid => OK */
-					application_raiseTimeEvent( &statechart, ticks[i].evid );
+					tpf_app_raiseTimeEvent( &statechart, ticks[i].evid );
 
 					/* Then Mark as Attached -> Ticks.evid => OK */
 					MarkAsAttEvent( ticks, NOF_TIMERS, ticks[i].evid );
@@ -236,13 +236,13 @@ int main(void)
 
 				/* Then Raise an Event -> evTECXOprimodo => OK,
 				 * and Value of pressed button -> viTecla */
-				applicationIface_raise_evTECXOprimido(&statechart, BUTTON_Status);
+				tpf_appIface_raise_evTECXOprimido(&statechart, BUTTON_Status);
 			else
 				/* Then else Raise an Event -> evTECXNoOprimido => OK */
-				applicationIface_raise_evTECXNoOprimido(&statechart);
+				tpf_appIface_raise_evTECXNoOprimido(&statechart);
 
 			/* Then Run an Cycle of Statechart */
-			application_runCycle(&statechart);		// Run Cycle of Statechart
+			tpf_app_runCycle(&statechart);		// Run Cycle of Statechart
 		}
 	}
 }

@@ -21,13 +21,13 @@
       </vertices>
       <vertices xsi:type="sgraph:State" xmi:id="_S6A0kBy5EeuuH_7MyLvB7A" specification="entry/opSetFrecuencia(Frec)" name="FRECUENCIA" incomingTransitions="_X1HcoBy5EeuuH_7MyLvB7A _cUmfsBy5EeuuH_7MyLvB7A _iTNzMBy5EeuuH_7MyLvB7A _jKNsoBy5EeuuH_7MyLvB7A">
         <outgoingTransitions xmi:id="_YTfasBy5EeuuH_7MyLvB7A" specification="evMagnitud" target="_WYHTIBy5EeuuH_7MyLvB7A"/>
-        <outgoingTransitions xmi:id="_iTNzMBy5EeuuH_7MyLvB7A" specification="evUp/Frec++" target="_S6A0kBy5EeuuH_7MyLvB7A"/>
-        <outgoingTransitions xmi:id="_jKNsoBy5EeuuH_7MyLvB7A" specification="evDown[Frec > 10]/Frec--" target="_S6A0kBy5EeuuH_7MyLvB7A"/>
+        <outgoingTransitions xmi:id="_iTNzMBy5EeuuH_7MyLvB7A" specification="evUp[Frec &lt; 20000]/Frec++" target="_S6A0kBy5EeuuH_7MyLvB7A"/>
+        <outgoingTransitions xmi:id="_jKNsoBy5EeuuH_7MyLvB7A" specification="evDown[Frec > 20]/Frec--" target="_S6A0kBy5EeuuH_7MyLvB7A"/>
       </vertices>
       <vertices xsi:type="sgraph:State" xmi:id="_WYHTIBy5EeuuH_7MyLvB7A" specification="entry/opSetTension(Tension)" name="TENSION" incomingTransitions="_YTfasBy5EeuuH_7MyLvB7A _hvvSsBy5EeuuH_7MyLvB7A _rUwsMBy5EeuuH_7MyLvB7A">
         <outgoingTransitions xmi:id="_cUmfsBy5EeuuH_7MyLvB7A" specification="evMagnitud" target="_S6A0kBy5EeuuH_7MyLvB7A"/>
-        <outgoingTransitions xmi:id="_hvvSsBy5EeuuH_7MyLvB7A" specification="evUp/Tension++" target="_WYHTIBy5EeuuH_7MyLvB7A"/>
-        <outgoingTransitions xmi:id="_rUwsMBy5EeuuH_7MyLvB7A" specification="evDown/Tension--" target="_WYHTIBy5EeuuH_7MyLvB7A"/>
+        <outgoingTransitions xmi:id="_hvvSsBy5EeuuH_7MyLvB7A" specification="evUp[Tension &lt; 10]/Tension++" target="_WYHTIBy5EeuuH_7MyLvB7A"/>
+        <outgoingTransitions xmi:id="_rUwsMBy5EeuuH_7MyLvB7A" specification="evDown[Tension > 0]/Tension--" target="_WYHTIBy5EeuuH_7MyLvB7A"/>
       </vertices>
     </regions>
   </sgraph:Statechart>

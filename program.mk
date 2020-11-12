@@ -11,4 +11,4 @@ PROGRAM_PATH = projects
 #TP1 - Panel de control : panel_de_control
 #TP1 - Porton levadizo  : porton_levadizo
 
-PROGRAM_NAME = panel_de_control
+PROGRAM_NAME = porton_levadizo_app

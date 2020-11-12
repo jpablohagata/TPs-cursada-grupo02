@@ -102,6 +102,11 @@ TimerTicks ticks[NOF_TIMERS];
  *  - make sure that the execution time is as short as possible.
  */
 
+void puerta_corrediza_appIface_opMotor(Puerta_corrediza_app* handle,sc_integer direction )
+{
+	return;
+}
+
 /** state machine user-defined external function (action)
  *
  * @param handle state machine instance

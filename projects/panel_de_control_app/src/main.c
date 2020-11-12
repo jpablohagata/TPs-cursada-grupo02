@@ -102,6 +102,21 @@ TimerTicks ticks[NOF_TIMERS];
  *  - make sure that the execution time is as short as possible.
  */
 
+void panel_de_control_appIface_opSetForma(sc_integer forma)
+{
+	return;
+}
+
+void panel_de_control_appIface_opSetFrecuencia(sc_integer frecuencia)
+{
+	return;
+}
+
+void panel_de_control_appIface_opSetTension(sc_integer tension)
+{
+	return;
+}
+
 /** state machine user-defined external function (action)
  *
  * @param handle state machine instance

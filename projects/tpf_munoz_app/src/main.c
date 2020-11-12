@@ -102,12 +102,20 @@ TimerTicks ticks[NOF_TIMERS];
  *  - make sure that the execution time is as short as possible.
  */
 
+void tpf_appIface_motorDriver(Tpf_app* handle,sc_integer motorID, sc_integer speed)
+{
+	return;
+}
+
 /** state machine user-defined external function (action)
  *
  * @param handle state machine instance
  * @param LEDNumber number of LED
  * @param onoff state machine operation parameter
  */
+
+
+
 
 void tpf_appIface_opLED( Tpf_app* handle, sc_integer LEDNumber, sc_boolean State )
 {

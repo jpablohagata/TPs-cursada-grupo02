@@ -4,8 +4,8 @@ GeneratorModel for yakindu::c {
 
 		feature Outlet {
 			targetProject = "TPs-cursada-grupo02"
-			targetFolder = "projects/panel_de_control/gen"
-			libraryTargetFolder = "projects/panel_de_control/inc"
+			targetFolder = "projects/tpf_munoz/gen"
+			libraryTargetFolder = "projects/tpf_munoz/inc"
 		}
 	}
 }

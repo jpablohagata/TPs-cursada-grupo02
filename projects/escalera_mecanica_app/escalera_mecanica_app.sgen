@@ -1,0 +1,11 @@
+GeneratorModel for yakindu::c {
+
+	statechart escalera_mecanica_app {
+
+		feature Outlet {
+			targetProject = "TPs-cursada-grupo02"
+			targetFolder = "projects/escalera_mecanica_app/gen"
+			libraryTargetFolder = "projects/escalera_mecanica_app/inc"
+		}
+	}
+}

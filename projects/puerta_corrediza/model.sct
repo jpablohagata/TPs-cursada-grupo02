@@ -16,7 +16,7 @@
         <outgoingTransitions xmi:id="_HPutkB_AEeuPYqCQLYvoog" specification="evPresencia" target="_C-N1EB_AEeuPYqCQLYvoog"/>
       </vertices>
       <vertices xsi:type="sgraph:State" xmi:id="_Mgu7IB8mEeu8hJorO2-I3Q" specification="entry/ opMotor(MOTOR_STOP)" name="ABIERTA" incomingTransitions="_cBfTQB8mEeu8hJorO2-I3Q _P1KL8B-4EeuPYqCQLYvoog">
-        <outgoingTransitions xmi:id="_eIQygB8mEeu8hJorO2-I3Q" specification="after 5000 ms" target="_KmKE0B8mEeu8hJorO2-I3Q"/>
+        <outgoingTransitions xmi:id="_eIQygB8mEeu8hJorO2-I3Q" specification="after 3000 ms" target="_KmKE0B8mEeu8hJorO2-I3Q"/>
         <outgoingTransitions xmi:id="_P1KL8B-4EeuPYqCQLYvoog" specification="evPresencia" target="_Mgu7IB8mEeu8hJorO2-I3Q"/>
       </vertices>
       <vertices xsi:type="sgraph:State" xmi:id="_C-N1EB_AEeuPYqCQLYvoog" specification="entry/ opMotor(MOTOR_STOP)" name="PARADA" incomingTransitions="_HPutkB_AEeuPYqCQLYvoog">

@@ -11,4 +11,4 @@ PROGRAM_PATH = projects
 #TP1 - Panel de control : panel_de_control
 #TP1 - Porton levadizo  : porton_levadizo
 
-PROGRAM_NAME = horno_microondas_app
+PROGRAM_NAME = tpf_hagata_app

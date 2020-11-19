@@ -39,16 +39,14 @@
  ** @{ */
 
 /*==================[inclusions]=============================================*/
-#include "tpf_hagata_app.h"
-#include "main.h"
-
+#include "../../tpf_hagata_app/inc/main.h"
+#include "../../tpf_hagata_app/inc/TimerTicks.h"
+#include "Tpf_hagata_app.h"
 #include "sapi.h"       // <= sAPI header
 
 /* Include statechart header file. Be sure you run the statechart C code
  * generation tool!
  */
-
-#include "TimerTicks.h"
 
 
 /*==================[macros and definitions]=================================*/
@@ -62,10 +60,10 @@
 volatile bool SysTick_Time_Flag = false;
 
 /*! This is a state machine */
-static tpf_hagata_app statechart;
+static Tpf_hagata_app statechart;
 
 /*! This is a timed state machine that requires timer services */
-#define NOF_TIMERS (sizeof(tpf_hagata_appTimeEvents)/sizeof(sc_boolean))
+#define NOF_TIMERS (sizeof(Tpf_hagata_appTimeEvents)/sizeof(sc_boolean))
 
 TimerTicks ticks[NOF_TIMERS];
 
@@ -110,7 +108,16 @@ TimerTicks ticks[NOF_TIMERS];
  * @param onoff state machine operation parameter
  */
 
-void tpf_hagata_appIface_opLED( tpf_hagata_app* handle, sc_integer LEDNumber, sc_boolean State )
+
+void tpf_hagata_appIface_opLeer( Tpf_hagata_app* handle){
+	return;
+}
+
+void tpf_hagata_appIface_opEnviar( Tpf_hagata_app* handle, sc_real a, sc_real b){
+	return;
+}
+
+void tpf_hagata_appIface_opLED( Tpf_hagata_app* handle, sc_integer LEDNumber, sc_boolean State )
 {
 	gpioWrite( (LEDR + LEDNumber), State );
 }
@@ -129,7 +136,7 @@ void tpf_hagata_appIface_opLED( tpf_hagata_app* handle, sc_integer LEDNumber, sc
  *  \periodic Indicates the the time event must be raised periodically until
  *   the timer is unset
  */
-void tpf_hagata_app_setTimer( tpf_hagata_app* handle, const sc_eventid evid, const sc_integer time_ms, const sc_boolean periodic )
+void tpf_hagata_app_setTimer( Tpf_hagata_app* handle, const sc_eventid evid, const sc_integer time_ms, const sc_boolean periodic )
 {
 	SetNewTimerTick(ticks, NOF_TIMERS, evid, time_ms, periodic);
 }
@@ -141,7 +148,7 @@ void tpf_hagata_app_setTimer( tpf_hagata_app* handle, const sc_eventid evid, con
  *  state when a state will be left.
  *  \param evid An unique identifier of the event.
  */
-void tpf_hagata_app_unsetTimer( tpf_hagata_app* handle, const sc_eventid evid )
+void tpf_hagata_app_unsetTimer( Tpf_hagata_app* handle, const sc_eventid evid )
 {
 	UnsetTimerTick( ticks, NOF_TIMERS, evid );
 }

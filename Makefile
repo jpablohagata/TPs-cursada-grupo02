@@ -273,7 +273,8 @@ size: $(TARGET)
 # OpenOCD and GDB operations -------------------------------------------
 
 # OpenOCD executable name
-OOCD=~/CIAA/tools/openocd/bin/openocd
+#OOCD=~/CIAA/tools/openocd/bin/openocd
+OOCD=/home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/openocd/bin/openocd
 
 # OpenOCD configuration script for board
 OOCD_SCRIPT=scripts/openocd/lpc4337.cfg

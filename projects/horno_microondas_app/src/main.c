@@ -110,6 +110,10 @@ TimerTicks ticks[NOF_TIMERS];
  * @param onoff state machine operation parameter
  */
 
+void horno_microondas_appIface_opModo( Horno_microondas_app* handle, sc_integer a ) {
+	return;
+}
+
 void horno_microondas_appIface_opLED( Horno_microondas_app* handle, sc_integer LEDNumber, sc_boolean State )
 {
 	gpioWrite( (LEDR + LEDNumber), State );

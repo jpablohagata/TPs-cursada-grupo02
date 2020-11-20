@@ -34,13 +34,13 @@
       <vertices xsi:type="sgraph:Entry" xmi:id="_7Ma1kSqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7Ma1kiqoEeutwYOa4LX5vg" specification="" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7Ma1kyqoEeutwYOa4LX5vg" specification="entry / opLeer()" name="LEER" incomingTransitions="_7Ma1kiqoEeutwYOa4LX5vg _7MbcpSqoEeutwYOa4LX5vg">
+      <vertices xsi:type="sgraph:State" xmi:id="_7Ma1kyqoEeutwYOa4LX5vg" specification="entry / opLeer();&#xA;opLED(LED1,LED_ON);&#xA;opLED(LED2,LED_OFF);&#xA;opLED(LED3,LED_OFF)" name="LEER" incomingTransitions="_7Ma1kiqoEeutwYOa4LX5vg _7MbcpSqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7Ma1miqoEeutwYOa4LX5vg" specification="evLeido" target="_7McDsCqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7MbcoyqoEeutwYOa4LX5vg" specification="" name="IDLE" incomingTransitions="_7McDuyqoEeutwYOa4LX5vg">
-        <outgoingTransitions xmi:id="_7MbcpSqoEeutwYOa4LX5vg" specification="after 60*1000ms" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
+      <vertices xsi:type="sgraph:State" xmi:id="_7MbcoyqoEeutwYOa4LX5vg" specification="entry / opLED(LED1,LED_OFF);&#xA;opLED(LED2,LED_OFF);&#xA;opLED(LED3,LED_ON)" name="IDLE" incomingTransitions="_7McDuyqoEeutwYOa4LX5vg">
+        <outgoingTransitions xmi:id="_7MbcpSqoEeutwYOa4LX5vg" specification="after 3*1000ms" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7McDsCqoEeutwYOa4LX5vg" specification="entry / opEnviar(varTemperatura, varHumedad)" name="ENVIO" incomingTransitions="_7Ma1miqoEeutwYOa4LX5vg">
+      <vertices xsi:type="sgraph:State" xmi:id="_7McDsCqoEeutwYOa4LX5vg" specification="entry / opEnviar(varTemperatura, varHumedad);&#xA;opLED(LED1,LED_OFF);&#xA;opLED(LED2,LED_ON);&#xA;opLED(LED3,LED_OFF)" name="ENVIO" incomingTransitions="_7Ma1miqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7McDuyqoEeutwYOa4LX5vg" specification="evEnviado" target="_7MbcoyqoEeutwYOa4LX5vg"/>
       </vertices>
     </regions>
@@ -389,7 +389,7 @@
     <edges xmi:id="_7Md44CqoEeutwYOa4LX5vg" type="Transition" element="_7Ma1miqoEeutwYOa4LX5vg" source="_7MZAbiqoEeutwYOa4LX5vg" target="_7MZAhiqoEeutwYOa4LX5vg">
       <children xsi:type="notation:DecorationNode" xmi:id="_7Md44SqoEeutwYOa4LX5vg" type="TransitionExpression">
         <styles xsi:type="notation:ShapeStyle" xmi:id="_7Md44iqoEeutwYOa4LX5vg"/>
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_7Md44yqoEeutwYOa4LX5vg" x="52" y="-6"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_7Md44yqoEeutwYOa4LX5vg" x="35" y="-3"/>
       </children>
       <styles xsi:type="notation:ConnectorStyle" xmi:id="_7Md45CqoEeutwYOa4LX5vg" routing="Rectilinear" lineColor="4210752"/>
       <styles xsi:type="notation:FontStyle" xmi:id="_7Md45SqoEeutwYOa4LX5vg" fontName="Verdana"/>

@@ -34,13 +34,13 @@
       <vertices xsi:type="sgraph:Entry" xmi:id="_7Ma1kSqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7Ma1kiqoEeutwYOa4LX5vg" specification="" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7Ma1kyqoEeutwYOa4LX5vg" specification="entry / opLeer()" name="LEER" incomingTransitions="_7Ma1kiqoEeutwYOa4LX5vg _7MbcpSqoEeutwYOa4LX5vg">
+      <vertices xsi:type="sgraph:State" xmi:id="_7Ma1kyqoEeutwYOa4LX5vg" specification="entry / opLeer();&#xA;opLED(LED1, LED_ON);&#xA;opLED(LED2, LED_OFF);&#xA;opLED(LED3, LED_OFF)" name="LEER" incomingTransitions="_7Ma1kiqoEeutwYOa4LX5vg _7MbcpSqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7Ma1miqoEeutwYOa4LX5vg" specification="evLeido" target="_7McDsCqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7MbcoyqoEeutwYOa4LX5vg" specification="" name="IDLE" incomingTransitions="_7McDuyqoEeutwYOa4LX5vg">
-        <outgoingTransitions xmi:id="_7MbcpSqoEeutwYOa4LX5vg" specification="after 60*1000ms" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
+      <vertices xsi:type="sgraph:State" xmi:id="_7MbcoyqoEeutwYOa4LX5vg" specification="entry / opLED(LED1, LED_OFF);&#xA;opLED(LED2, LED_OFF);&#xA;opLED(LED3, LED_ON)" name="IDLE" incomingTransitions="_7McDuyqoEeutwYOa4LX5vg">
+        <outgoingTransitions xmi:id="_7MbcpSqoEeutwYOa4LX5vg" specification="after 3*1000ms" target="_7Ma1kyqoEeutwYOa4LX5vg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_7McDsCqoEeutwYOa4LX5vg" specification="entry / opEnviar(varTemperatura, varHumedad)" name="ENVIO" incomingTransitions="_7Ma1miqoEeutwYOa4LX5vg">
+      <vertices xsi:type="sgraph:State" xmi:id="_7McDsCqoEeutwYOa4LX5vg" specification="entry / opEnviar(varTemperatura, varHumedad);&#xA;opLED(LED1, LED_OFF);&#xA;opLED(LED2, LED_ON);&#xA;opLED(LED3, LED_OFF)" name="ENVIO" incomingTransitions="_7Ma1miqoEeutwYOa4LX5vg">
         <outgoingTransitions xmi:id="_7McDuyqoEeutwYOa4LX5vg" specification="evEnviado" target="_7MbcoyqoEeutwYOa4LX5vg"/>
       </vertices>
     </regions>

@@ -675,6 +675,13 @@ void uartInit2( uartMap_t uart, uint32_t baudRate,
 }
 
 // Read 1 byte from RX FIFO, check first if exist aviable data
+
+//uart: Puerto UART que queremos leer
+//receivedByte: direccion de memoria donde se escribira el dato recibido
+//(en caso de que haya un dato por recibir)
+//retorna TRUE si recibio un dato, FALSE si no hay dato recibido.
+
+
 bool_t uartReadByte( uartMap_t uart, uint8_t* receivedByte )
 {
    bool_t retVal = TRUE;

@@ -1,14 +1,12 @@
 #include "../inc/main.h"
-bool_t dht22_init();
-char leer_datos_dht();
+//bool_t dht22_init();
+//char leer_datos_dht();
 
 int main (void) {
 
 	delay_t delay;
-	bool_t input = false;
-	bool_t aux = false;
+	uint16_t input = 0;
 	uint8_t i = 0;
-	char dht22_dat[6];
 
 	// Inicializar la placa
 	boardConfig();
@@ -19,57 +17,32 @@ int main (void) {
 	// Inicializar Retardo no bloqueante con tiempo en ms
 	delayConfig( &delay, 1000 );
 
-	//gpioWrite(LED1,TRUE);
-
-/*	while(!dht22_init());
-
-
-	for(i=0;i<5;i++){
-		uartWriteByte(UART_USB, i);
-		dht22_dat[i]=leer_datos_dht();
-	}
-
-	dht22_dat[i] = '\0';
-	uartWriteString(UART_USB, dht22_dat);
-	uartWriteString(UART_USB, "hola");
-
-*/
-
-	Chip_SCU_PinMux(3,7,SCU_MODE_PULLUP | SCU_MODE_ZIF_DIS,FUNC0);
-	Chip_GPIO_SetDir(LPC_GPIO_PORT,3,(1<<7),1);
-	Chip_GPIO_SetValue(LPC_GPIO_PORT,3,(1<<7));
-	delayInaccurateUs(1000*1000);
-	Chip_GPIO_ClearValue(LPC_GPIO_PORT,3,(1<<7));
-	delayInaccurateUs(1000*1000);
-	Chip_GPIO_SetValue(LPC_GPIO_PORT,3,(1<<7));
-
-	//gpioWrite(LEDB,TRUE);
-
+	adcConfig(ADC_ENABLE);
 
 
 	while(1){
-		/*if ( delayRead( &delay ) ){
-			input = Chip_GPIO_GetPinState(LPC_GPIO_PORT, 2, 7);
 
-			if (aux) {
-				delayConfig( &delay, 100 );
-				aux = false;
+		if ( delayRead( &delay ) ){
+
+			input = adcRead(ADC_CH1);
+
+			uartWriteByte(UART_USB,input);
+
+			if (input > 115) {
+				gpioWrite(LED1,TRUE);
+				gpioWrite(LED2,FALSE);
 			} else {
-				delayConfig( &delay, 1000 );
-				aux = true;
+				gpioWrite(LED1,FALSE);
+				gpioWrite(LED2,TRUE);
 			}
 
-			if (input) uartWriteString(UART_USB, "true");
-			else uartWriteString(UART_USB, "false");
 
-			uartWriteString(UART_USB, "\r\n");
-
-		}*/
+		}
 	}
 
 	return 0;
 }
-
+/*
 bool_t dht22_init() {
 	static delay_t delay;
 	static bool_t step1 = false, step2 = false;
@@ -121,4 +94,4 @@ char leer_datos_dht(){
 
 	return result;
 }
-
+*/

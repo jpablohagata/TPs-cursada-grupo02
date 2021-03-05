@@ -3,8 +3,8 @@
 #default  : projects/yakindu-project
 #TP1      : projects
 
-#PROGRAM_PATH = projects
-PROGRAM_PATH = projects/hagata_aux
+PROGRAM_PATH = projects
+#PROGRAM_PATH = projects/hagata_aux
 
 #Nombre de la carpeta de proyecto
 
@@ -12,5 +12,5 @@ PROGRAM_PATH = projects/hagata_aux
 #TP1 - Panel de control : panel_de_control
 #TP1 - Porton levadizo  : porton_levadizo
 
-PROGRAM_NAME = temp
-#PROGRAM_NAME = tpf_hagata_app
+#PROGRAM_NAME = wifi
+PROGRAM_NAME = tpf_hagata_base

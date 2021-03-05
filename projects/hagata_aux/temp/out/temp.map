@@ -1228,24 +1228,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
  .data          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.setStartMode
-                0x0000000000000000        0xe projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.readAdcVal
-                0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_DeInit
-                0x0000000000000000       0x16 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_ReadValue
-                0x0000000000000000        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_ReadStatus
-                0x0000000000000000       0x36 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_Int_SetChannelCmd
-                0x0000000000000000       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_SetStartMode
-                0x0000000000000000       0x20 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_EnableChannel
-                0x0000000000000000       0x2a projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- .text.Chip_ADC_SetBurstCmd
-                0x0000000000000000       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
  .text.Chip_ADC_ReadByte
                 0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
  .debug_macro   0x0000000000000000      0xaae projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
@@ -1730,8 +1712,6 @@ Discarded input sections
                 0x0000000000000000       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_RTCEnable
                 0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
- .text.Chip_Clock_Disable
-                0x0000000000000000       0x34 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_StartPowerDown
                 0x0000000000000000       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_ClearPowerDown
@@ -6482,11 +6462,7 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.uartRxReady
                 0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .text.uartTxReady
-                0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.uartRxRead
-                0x0000000000000000       0x14 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .text.uartTxWrite
                 0x0000000000000000       0x14 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.uartInit2
                 0x0000000000000000       0xac projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
@@ -6500,8 +6476,6 @@ Discarded input sections
                 0x0000000000000000       0xc8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.receiveBytesUntilReceiveStringOrTimeoutBlocking
                 0x0000000000000000       0x40 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
- .text.uartWriteByte
-                0x0000000000000000       0x1a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.uartWriteString
                 0x0000000000000000       0x16 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .text.uartWriteByteArray
@@ -7210,8 +7184,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .data          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .text.tickRead
-                0x0000000000000000        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .text.tickWrite
                 0x0000000000000000        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .text.tickCallbackSet
@@ -7937,15 +7909,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .data          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .text.adcInit  0x0000000000000000       0xa0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .text.adcRead  0x0000000000000000       0x54 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_info    0x0000000000000000      0xf26 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_abbrev  0x0000000000000000      0x2c1 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_loc     0x0000000000000000       0xa9 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_aranges
-                0x0000000000000000       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_ranges  0x0000000000000000       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_macro   0x0000000000000000      0x45c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_macro   0x0000000000000000      0xaae projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_macro   0x0000000000000000       0x22 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_macro   0x0000000000000000       0x56 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
@@ -8024,12 +7987,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x46 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_macro   0x0000000000000000       0x52 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_macro   0x0000000000000000       0x26 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_line    0x0000000000000000      0x982 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_str     0x0000000000000000    0x1a8e1 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .comment       0x0000000000000000       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .debug_frame   0x0000000000000000       0x58 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
- .ARM.attributes
-                0x0000000000000000       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .group         0x0000000000000000        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .group         0x0000000000000000        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .group         0x0000000000000000        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
@@ -8112,8 +8069,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .data          0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .text.gpioWrite
-                0x0000000000000000       0x56 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .text.gpioRead
                 0x0000000000000000       0x54 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .text.gpioToggle
@@ -9271,9 +9226,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .text.delayInaccurateMs
                 0x0000000000000000       0x5a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .text.delayInaccurateUs
+                0x0000000000000000       0x5c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .text.delay    0x0000000000000000       0x38 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .text.delayRead
-                0x0000000000000000       0x3e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .text.delayWrite
                 0x0000000000000000       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .debug_macro   0x0000000000000000      0xaae projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
@@ -12959,16 +12914,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .data          0x0000000000000000        0x0 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .bss           0x0000000000000000        0x0 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .text.dht22_init
-                0x0000000000000000       0xcc projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .text.leer_datos_dht
-                0x0000000000000000       0x54 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .bss.delay.13684
-                0x0000000000000000       0x18 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .bss.step1.13685
-                0x0000000000000000        0x1 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .bss.step2.13686
-                0x0000000000000000        0x1 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .debug_macro   0x0000000000000000      0xaae projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .debug_macro   0x0000000000000000       0x22 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .debug_macro   0x0000000000000000       0x56 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
@@ -13508,7 +13453,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x000000001a000000     0x1b44
+.text           0x000000001a000000     0x1dfc
  FILL mask 0xff
                 0x000000001a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -13521,19 +13466,19 @@ END GROUP
                 0x000000001a000114                . = ALIGN (0x4)
                 0x000000001a000114                __section_table_start = .
                 0x000000001a000114                __data_section_table = .
-                0x000000001a000114        0x4 LONG 0x1a001b4c LOADADDR (.data)
+                0x000000001a000114        0x4 LONG 0x1a001e04 LOADADDR (.data)
                 0x000000001a000118        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000001a00011c        0x4 LONG 0x48 SIZEOF (.data)
-                0x000000001a000120        0x4 LONG 0x1a001b4c LOADADDR (.data_RAM2)
+                0x000000001a000120        0x4 LONG 0x1a001e04 LOADADDR (.data_RAM2)
                 0x000000001a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x000000001a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x000000001a00012c        0x4 LONG 0x1a001b4c LOADADDR (.data_RAM3)
+                0x000000001a00012c        0x4 LONG 0x1a001e04 LOADADDR (.data_RAM3)
                 0x000000001a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x000000001a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x000000001a000138        0x4 LONG 0x1a001b4c LOADADDR (.data_RAM4)
+                0x000000001a000138        0x4 LONG 0x1a001e04 LOADADDR (.data_RAM4)
                 0x000000001a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x000000001a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x000000001a000144        0x4 LONG 0x1a001b4c LOADADDR (.data_RAM5)
+                0x000000001a000144        0x4 LONG 0x1a001e04 LOADADDR (.data_RAM5)
                 0x000000001a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x000000001a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x000000001a000150                __data_section_table_end = .
@@ -13666,237 +13611,286 @@ END GROUP
                 0x000000001a0006f0       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
  .text.getClkDiv
                 0x000000001a000704       0x32 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
- *fill*         0x000000001a000736        0x2 ff
+ .text.setStartMode
+                0x000000001a000736        0xe projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000736                setStartMode
+ .text.readAdcVal
+                0x000000001a000744       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000744                readAdcVal
  .text.Chip_ADC_Init
-                0x000000001a000738       0x40 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
-                0x000000001a000738                Chip_ADC_Init
+                0x000000001a00075c       0x40 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a00075c                Chip_ADC_Init
+ .text.Chip_ADC_DeInit
+                0x000000001a00079c       0x16 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a00079c                Chip_ADC_DeInit
+ .text.Chip_ADC_ReadValue
+                0x000000001a0007b2        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a0007b2                Chip_ADC_ReadValue
+ .text.Chip_ADC_ReadStatus
+                0x000000001a0007ba       0x36 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a0007ba                Chip_ADC_ReadStatus
+ .text.Chip_ADC_Int_SetChannelCmd
+                0x000000001a0007f0       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a0007f0                Chip_ADC_Int_SetChannelCmd
+ .text.Chip_ADC_SetStartMode
+                0x000000001a000812       0x20 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000812                Chip_ADC_SetStartMode
  .text.Chip_ADC_SetSampleRate
-                0x000000001a000778       0x32 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
-                0x000000001a000778                Chip_ADC_SetSampleRate
+                0x000000001a000832       0x32 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000832                Chip_ADC_SetSampleRate
  .text.Chip_ADC_SetResolution
-                0x000000001a0007aa        0xc projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
-                0x000000001a0007aa                Chip_ADC_SetResolution
- *fill*         0x000000001a0007b6        0x2 ff
+                0x000000001a000864        0xc projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000864                Chip_ADC_SetResolution
+ .text.Chip_ADC_EnableChannel
+                0x000000001a000870       0x2a projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a000870                Chip_ADC_EnableChannel
+ .text.Chip_ADC_SetBurstCmd
+                0x000000001a00089a       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+                0x000000001a00089a                Chip_ADC_SetBurstCmd
  .text.pll_calc_divs
-                0x000000001a0007b8       0xa0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a0008bc       0xa0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.pll_get_frac
-                0x000000001a000858      0x10c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a00095c      0x10c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_FindBaseClock
-                0x000000001a000964       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000a68       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .text.Chip_Clock_EnableCrystal
-                0x000000001a0009b0       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a0009b0                Chip_Clock_EnableCrystal
+                0x000000001a000ab4       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000ab4                Chip_Clock_EnableCrystal
  .text.Chip_Clock_GetDividerSource
-                0x000000001a0009fc       0x1c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a0009fc                Chip_Clock_GetDividerSource
+                0x000000001a000b00       0x1c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000b00                Chip_Clock_GetDividerSource
  .text.Chip_Clock_GetDividerDivisor
-                0x000000001a000a18       0x1c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000a18                Chip_Clock_GetDividerDivisor
+                0x000000001a000b1c       0x1c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000b1c                Chip_Clock_GetDividerDivisor
  .text.Chip_Clock_GetClockInputHz
-                0x000000001a000a34       0xb8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000a34                Chip_Clock_GetClockInputHz
+                0x000000001a000b38       0xb8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000b38                Chip_Clock_GetClockInputHz
  .text.Chip_Clock_CalcMainPLLValue
-                0x000000001a000aec       0x80 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000aec                Chip_Clock_CalcMainPLLValue
+                0x000000001a000bf0       0x80 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000bf0                Chip_Clock_CalcMainPLLValue
  .text.Chip_Clock_GetMainPLLHz
-                0x000000001a000b6c       0x6c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000b6c                Chip_Clock_GetMainPLLHz
+                0x000000001a000c70       0x6c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000c70                Chip_Clock_GetMainPLLHz
  .text.Chip_Clock_GetDivRate
-                0x000000001a000bd8       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
- *fill*         0x000000001a000bfa        0x2 ff
+                0x000000001a000cdc       0x22 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+ *fill*         0x000000001a000cfe        0x2 ff
  .text.Chip_Clock_SetBaseClock
-                0x000000001a000bfc       0x58 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000bfc                Chip_Clock_SetBaseClock
+                0x000000001a000d00       0x58 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d00                Chip_Clock_SetBaseClock
  .text.Chip_Clock_GetBaseClock
-                0x000000001a000c54       0x26 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c54                Chip_Clock_GetBaseClock
+                0x000000001a000d58       0x26 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d58                Chip_Clock_GetBaseClock
  .text.Chip_Clock_GetBaseClocktHz
-                0x000000001a000c7a        0xc projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c7a                Chip_Clock_GetBaseClocktHz
- *fill*         0x000000001a000c86        0x2 ff
+                0x000000001a000d7e        0xc projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d7e                Chip_Clock_GetBaseClocktHz
+ *fill*         0x000000001a000d8a        0x2 ff
  .text.Chip_Clock_EnableOpts
-                0x000000001a000c88       0x3c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000c88                Chip_Clock_EnableOpts
+                0x000000001a000d8c       0x3c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000d8c                Chip_Clock_EnableOpts
  .text.Chip_Clock_Enable
-                0x000000001a000cc4       0x34 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000cc4                Chip_Clock_Enable
+                0x000000001a000dc8       0x34 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000dc8                Chip_Clock_Enable
+ .text.Chip_Clock_Disable
+                0x000000001a000dfc       0x34 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000dfc                Chip_Clock_Disable
  .text.Chip_Clock_GetRate
-                0x000000001a000cf8       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
-                0x000000001a000cf8                Chip_Clock_GetRate
+                0x000000001a000e30       0x4c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a000e30                Chip_Clock_GetRate
  .text.SystemCoreClockUpdate
-                0x000000001a000d44       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/chip_18xx_43xx.o
-                0x000000001a000d44                SystemCoreClockUpdate
+                0x000000001a000e7c       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/chip_18xx_43xx.o
+                0x000000001a000e7c                SystemCoreClockUpdate
  .text.Chip_GPIO_Init
-                0x000000001a000d58        0x2 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/gpio_18xx_43xx.o
-                0x000000001a000d58                Chip_GPIO_Init
- *fill*         0x000000001a000d5a        0x2 ff
+                0x000000001a000e90        0x2 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/gpio_18xx_43xx.o
+                0x000000001a000e90                Chip_GPIO_Init
+ *fill*         0x000000001a000e92        0x2 ff
  .text.Chip_SetupCoreClock
-                0x000000001a000d5c      0x158 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
-                0x000000001a000d5c                Chip_SetupCoreClock
+                0x000000001a000e94      0x158 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+                0x000000001a000e94                Chip_SetupCoreClock
  .text.Chip_SSP_GetClockIndex
-                0x000000001a000eb4       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+                0x000000001a000fec       0x14 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
  .text.Chip_SSP_GetPeriphClockIndex
-                0x000000001a000ec8       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+                0x000000001a001000       0x18 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
  .text.Chip_SSP_SetClockRate
-                0x000000001a000ee0       0x12 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
-                0x000000001a000ee0                Chip_SSP_SetClockRate
+                0x000000001a001018       0x12 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+                0x000000001a001018                Chip_SSP_SetClockRate
  .text.Chip_SSP_SetBitRate
-                0x000000001a000ef2       0x3e projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
-                0x000000001a000ef2                Chip_SSP_SetBitRate
+                0x000000001a00102a       0x3e projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+                0x000000001a00102a                Chip_SSP_SetBitRate
  .text.Chip_SSP_Init
-                0x000000001a000f30       0x38 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
-                0x000000001a000f30                Chip_SSP_Init
+                0x000000001a001068       0x38 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+                0x000000001a001068                Chip_SSP_Init
  .text.Chip_I2C_EventHandler
-                0x000000001a000f68       0x20 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
-                0x000000001a000f68                Chip_I2C_EventHandler
+                0x000000001a0010a0       0x20 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
+                0x000000001a0010a0                Chip_I2C_EventHandler
  .text.Chip_I2C_Init
-                0x000000001a000f88       0x24 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
-                0x000000001a000f88                Chip_I2C_Init
+                0x000000001a0010c0       0x24 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
+                0x000000001a0010c0                Chip_I2C_Init
  .text.Chip_I2C_SetClockRate
-                0x000000001a000fac       0x38 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
-                0x000000001a000fac                Chip_I2C_SetClockRate
+                0x000000001a0010e4       0x38 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
+                0x000000001a0010e4                Chip_I2C_SetClockRate
  .text.SystemInit
-                0x000000001a000fe4       0x38 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/sysinit.o
-                0x000000001a000fe4                SystemInit
+                0x000000001a00111c       0x38 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/sysinit.o
+                0x000000001a00111c                SystemInit
  .text.initialise_monitor_handles
-                0x000000001a00101c        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
-                0x000000001a00101c                initialise_monitor_handles
- *fill*         0x000000001a00101e        0x2 ff
+                0x000000001a001154        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
+                0x000000001a001154                initialise_monitor_handles
+ *fill*         0x000000001a001156        0x2 ff
  .text.Reset_Handler
-                0x000000001a001020       0x88 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
-                0x000000001a001020                Reset_Handler
- .text._fini    0x000000001a0010a8        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
-                0x000000001a0010a8                _fini
- .text._init    0x000000001a0010aa        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
-                0x000000001a0010aa                _init
+                0x000000001a001158       0x88 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
+                0x000000001a001158                Reset_Handler
+ .text._fini    0x000000001a0011e0        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
+                0x000000001a0011e0                _fini
+ .text._init    0x000000001a0011e2        0x2 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
+                0x000000001a0011e2                _init
  .text.cyclesCounterInit
-                0x000000001a0010ac       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
-                0x000000001a0010ac                cyclesCounterInit
+                0x000000001a0011e4       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+                0x000000001a0011e4                cyclesCounterInit
+ .text.uartTxReady
+                0x000000001a001200       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a001200                uartTxReady
+ .text.uartTxWrite
+                0x000000001a001218       0x14 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a001218                uartTxWrite
  .text.uartInit
-                0x000000001a0010c8       0x7c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
-                0x000000001a0010c8                uartInit
+                0x000000001a00122c       0x7c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a00122c                uartInit
+ .text.uartWriteByte
+                0x000000001a0012a8       0x1a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a0012a8                uartWriteByte
+ *fill*         0x000000001a0012c2        0x2 ff
+ .text.tickRead
+                0x000000001a0012c4        0xc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012c4                tickRead
  .text.tickPowerSet
-                0x000000001a001144       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a001144                tickPowerSet
+                0x000000001a0012d0       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012d0                tickPowerSet
  .text.tickInit
-                0x000000001a00115c       0x7c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a00115c                tickInit
+                0x000000001a0012e8       0x7c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a0012e8                tickInit
  .text.SysTick_Handler
-                0x000000001a0011d8       0x2c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
-                0x000000001a0011d8                SysTick_Handler
+                0x000000001a001364       0x2c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+                0x000000001a001364                SysTick_Handler
+ .text.adcInit  0x000000001a001390       0xa0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+                0x000000001a001390                adcInit
+ .text.adcRead  0x000000001a001430       0x54 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+                0x000000001a001430                adcRead
  .text.gpioObtainPinInit
-                0x000000001a001204       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a001484       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .text.gpioInit
-                0x000000001a001238      0x194 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a001238                gpioInit
+                0x000000001a0014b8      0x194 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a0014b8                gpioInit
+ .text.gpioWrite
+                0x000000001a00164c       0x56 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a00164c                gpioWrite
+ *fill*         0x000000001a0016a2        0x2 ff
  .text.USB0_IRQHandler
-                0x000000001a0013cc       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
-                0x000000001a0013cc                USB0_IRQHandler
+                0x000000001a0016a4       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+                0x000000001a0016a4                USB0_IRQHandler
  .text.boardInit
-                0x000000001a0013e8       0x74 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
-                0x000000001a0013e8                boardInit
- .text.delayInaccurateUs
-                0x000000001a00145c       0x5c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
-                0x000000001a00145c                delayInaccurateUs
+                0x000000001a0016c0       0x74 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+                0x000000001a0016c0                boardInit
  .text.delayInit
-                0x000000001a0014b8       0x20 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
-                0x000000001a0014b8                delayInit
- .text.main     0x000000001a0014d8       0x68 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
-                0x000000001a0014d8                main
- .text          0x000000001a001540       0x30 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x000000001a001540                __aeabi_uldivmod
+                0x000000001a001734       0x20 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x000000001a001734                delayInit
+ .text.delayRead
+                0x000000001a001754       0x3e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x000000001a001754                delayRead
+ .text.main     0x000000001a001792       0x66 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+                0x000000001a001792                main
+ .text          0x000000001a0017f8       0x30 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000001a0017f8                __aeabi_uldivmod
  .text.__udivmoddi4
-                0x000000001a001570      0x2d0 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000001a001570                __udivmoddi4
- .text          0x000000001a001840        0x4 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
-                0x000000001a001840                __aeabi_ldiv0
-                0x000000001a001840                __aeabi_idiv0
+                0x000000001a001828      0x2d0 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000001a001828                __udivmoddi4
+ .text          0x000000001a001af8        0x4 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000001a001af8                __aeabi_ldiv0
+                0x000000001a001af8                __aeabi_idiv0
  .text.__libc_init_array
-                0x000000001a001844       0x48 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
-                0x000000001a001844                __libc_init_array
- .text.memset   0x000000001a00188c       0x10 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000001a00188c                memset
+                0x000000001a001afc       0x48 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x000000001a001afc                __libc_init_array
+ .text.memset   0x000000001a001b44       0x10 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000001a001b44                memset
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.ExtRateIn
-                0x000000001a00189c        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
-                0x000000001a00189c                ExtRateIn
+                0x000000001a001b54        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+                0x000000001a001b54                ExtRateIn
  .rodata.GpioButtons
-                0x000000001a0018a0        0x8 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+                0x000000001a001b58        0x8 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .rodata.GpioLeds
-                0x000000001a0018a8        0xc projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+                0x000000001a001b60        0xc projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .rodata.GpioPorts
-                0x000000001a0018b4       0x12 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
- *fill*         0x000000001a0018c6        0x2 ff
+                0x000000001a001b6c       0x12 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+ *fill*         0x000000001a001b7e        0x2 ff
  .rodata.OscRateIn
-                0x000000001a0018c8        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
-                0x000000001a0018c8                OscRateIn
+                0x000000001a001b80        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+                0x000000001a001b80                OscRateIn
  .rodata.InitClkStates
-                0x000000001a0018cc        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a001b84        0x4 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .rodata.pinmuxing
-                0x000000001a0018d0       0x74 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
+                0x000000001a001b88       0x74 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .rodata.UART_BClock
-                0x000000001a001944        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
+                0x000000001a001bfc        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
  .rodata.UART_PClock
-                0x000000001a00194c        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
- .rodata        0x000000001a001954        0x4 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001c04        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .rodata        0x000000001a001c0c        0x4 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .rodata.Chip_Clock_SetDivider.str1.4
-                0x000000001a001958        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001c10        0x8 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
                                           0x6 (size before relaxing)
  .rodata.periph_to_base
-                0x000000001a001960       0x6c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+                0x000000001a001c18       0x6c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
  .rodata.InitClkStates
-                0x000000001a0019cc       0x48 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+                0x000000001a001c84       0x48 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
  .rodata.lpcUarts
-                0x000000001a001a14       0x48 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                0x000000001a001ccc       0x48 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .rodata.gpioPinsInit
-                0x000000001a001a5c       0xe6 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
-                0x000000001a001a5c                gpioPinsInit
-                0x000000001a001b44                . = ALIGN (0x4)
- *fill*         0x000000001a001b42        0x2 ff
+                0x000000001a001d14       0xe6 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x000000001a001d14                gpioPinsInit
+                0x000000001a001dfc                . = ALIGN (0x4)
+ *fill*         0x000000001a001dfa        0x2 ff
 
-.glue_7         0x000000001a001b44        0x0
- .glue_7        0x000000001a001b44        0x0 linker stubs
+.glue_7         0x000000001a001dfc        0x0
+ .glue_7        0x000000001a001dfc        0x0 linker stubs
 
-.glue_7t        0x000000001a001b44        0x0
- .glue_7t       0x000000001a001b44        0x0 linker stubs
+.glue_7t        0x000000001a001dfc        0x0
+ .glue_7t       0x000000001a001dfc        0x0 linker stubs
 
-.vfp11_veneer   0x000000001a001b44        0x0
- .vfp11_veneer  0x000000001a001b44        0x0 linker stubs
+.vfp11_veneer   0x000000001a001dfc        0x0
+ .vfp11_veneer  0x000000001a001dfc        0x0 linker stubs
 
-.v4_bx          0x000000001a001b44        0x0
- .v4_bx         0x000000001a001b44        0x0 linker stubs
+.v4_bx          0x000000001a001dfc        0x0
+ .v4_bx         0x000000001a001dfc        0x0 linker stubs
 
-.iplt           0x000000001a001b44        0x0
- .iplt          0x000000001a001b44        0x0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
-                0x000000001a001b44                . = ALIGN (0x4)
+.iplt           0x000000001a001dfc        0x0
+ .iplt          0x000000001a001dfc        0x0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+                0x000000001a001dfc                . = ALIGN (0x4)
 
-.preinit_array  0x000000001a001b44        0x0
-                0x000000001a001b44                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000001a001dfc        0x0
+                0x000000001a001dfc                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000001a001b44                PROVIDE (__preinit_array_end = .)
+                0x000000001a001dfc                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000001a001b44        0x0
-                0x000000001a001b44                PROVIDE (__init_array_start = .)
+.init_array     0x000000001a001dfc        0x0
+                0x000000001a001dfc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
-                0x000000001a001b44                PROVIDE (__init_array_end = .)
-                0x000000001a001b44                . = ALIGN (0x4)
+                0x000000001a001dfc                PROVIDE (__init_array_end = .)
+                0x000000001a001dfc                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001a001b44                __exidx_start = .
+                0x000000001a001dfc                __exidx_start = .
 
-.ARM.exidx      0x000000001a001b44        0x8
+.ARM.exidx      0x000000001a001dfc        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.__udivmoddi4
-                0x000000001a001b44        0x8 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000001a001b4c                __exidx_end = .
-                0x000000001a001b4c                _etext = .
+                0x000000001a001dfc        0x8 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000001a001e04                __exidx_end = .
+                0x000000001a001e04                _etext = .
 
-.rel.dyn        0x000000001a001b4c        0x0
- .rel.iplt      0x000000001a001b4c        0x0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+.rel.dyn        0x000000001a001e04        0x0
+ .rel.iplt      0x000000001a001e04        0x0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
 
-.data_RAM2      0x0000000010080000        0x0 load address 0x000000001a001b4c
+.data_RAM2      0x0000000010080000        0x0 load address 0x000000001a001e04
  FILL mask 0xff
  *(.ramfunc.$RAM2)
  *(.ramfunc.$RamLoc40)
@@ -13904,7 +13898,7 @@ END GROUP
  *(.data.$RamLoc40*)
                 0x0000000010080000                . = ALIGN (0x4)
 
-.data_RAM3      0x0000000020000000        0x0 load address 0x000000001a001b4c
+.data_RAM3      0x0000000020000000        0x0 load address 0x000000001a001e04
  FILL mask 0xff
  *(.ramfunc.$RAM3)
  *(.ramfunc.$RamAHB32)
@@ -13912,7 +13906,7 @@ END GROUP
  *(.data.$RamAHB32*)
                 0x0000000020000000                . = ALIGN (0x4)
 
-.data_RAM4      0x0000000020008000        0x0 load address 0x000000001a001b4c
+.data_RAM4      0x0000000020008000        0x0 load address 0x000000001a001e04
  FILL mask 0xff
  *(.ramfunc.$RAM4)
  *(.ramfunc.$RamAHB16)
@@ -13920,7 +13914,7 @@ END GROUP
  *(.data.$RamAHB16*)
                 0x0000000020008000                . = ALIGN (0x4)
 
-.data_RAM5      0x000000002000c000        0x0 load address 0x000000001a001b4c
+.data_RAM5      0x000000002000c000        0x0 load address 0x000000001a001e04
  FILL mask 0xff
  *(.ramfunc.$RAM5)
  *(.ramfunc.$RamAHB_ETB16)
@@ -13934,7 +13928,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000       0x48 load address 0x000000001a001b4c
+.data           0x0000000010000000       0x48 load address 0x000000001a001e04
  FILL mask 0xff
                 0x0000000010000000                _data = .
  *(vtable)
@@ -13950,7 +13944,7 @@ END GROUP
                 0x0000000010000048                . = ALIGN (0x4)
                 0x0000000010000048                _edata = .
 
-.igot.plt       0x0000000010000048        0x0 load address 0x000000001a001b94
+.igot.plt       0x0000000010000048        0x0 load address 0x000000001a001e4c
  .igot.plt      0x0000000010000048        0x0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
 
 .bss_RAM2       0x0000000010080000        0x0
@@ -14022,10 +14016,10 @@ END GROUP
                 0x0000000010000070                _end_noinit = .
                 [!provide]                        PROVIDE (_pvHeapStart = .)
                 0x0000000010008000                PROVIDE (_vStackTop = (__top_RamLoc32 - 0x0))
-                0xffffffff53ff6864                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (Reset_Handler + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0xffffffff53ff672c                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (Reset_Handler + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
 OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x1b447
+.debug_info     0x0000000000000000    0x1ba73
  .debug_info    0x0000000000000000     0x23f7 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_info    0x00000000000023f7     0x15d2 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_info    0x00000000000039c9     0x1981 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14043,13 +14037,14 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_info    0x000000000000d52c      0xf6a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_info    0x000000000000e496     0x2341 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_info    0x00000000000107d7     0x15a7 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_info    0x0000000000011d7e     0x1cc9 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_info    0x0000000000013a47     0x357f projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_info    0x0000000000016fc6      0xc51 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_info    0x0000000000017c17      0xbe5 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_info    0x00000000000187fc     0x2c4b projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_info    0x0000000000011d7e      0xf26 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_info    0x0000000000012ca4     0x1cc9 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_info    0x000000000001496d     0x357f projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_info    0x0000000000017eec      0xc51 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_info    0x0000000000018b3d      0xbe5 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_info    0x0000000000019722     0x2351 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_abbrev   0x0000000000000000     0x3f0c
+.debug_abbrev   0x0000000000000000     0x40a8
  .debug_abbrev  0x0000000000000000      0x512 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_abbrev  0x0000000000000512      0x352 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_abbrev  0x0000000000000864      0x42c projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14067,13 +14062,14 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_abbrev  0x000000000000234f      0x26c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_abbrev  0x00000000000025bb      0x47e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_abbrev  0x0000000000002a39      0x3cb projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_abbrev  0x0000000000002e04      0x3fa projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_abbrev  0x00000000000031fe      0x448 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_abbrev  0x0000000000003646      0x239 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_abbrev  0x000000000000387f      0x27d projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_abbrev  0x0000000000003afc      0x410 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_abbrev  0x0000000000002e04      0x2c1 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_abbrev  0x00000000000030c5      0x3fa projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_abbrev  0x00000000000034bf      0x448 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_abbrev  0x0000000000003907      0x239 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_abbrev  0x0000000000003b40      0x27d projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_abbrev  0x0000000000003dbd      0x2eb projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_loc      0x0000000000000000     0x7ad3
+.debug_loc      0x0000000000000000     0x75e7
  .debug_loc     0x0000000000000000      0x659 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_loc     0x0000000000000659      0x10f projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_loc     0x0000000000000768      0xf38 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14087,12 +14083,13 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_loc     0x00000000000055ab      0x109 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_loc     0x00000000000056b4      0xccd projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_loc     0x0000000000006381      0x1a3 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_loc     0x0000000000006524      0xa22 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_loc     0x0000000000006f46      0x3e0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_loc     0x0000000000007326      0x1f5 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_loc     0x000000000000751b      0x5b8 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_loc     0x0000000000006524       0xa9 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_loc     0x00000000000065cd      0xa22 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_loc     0x0000000000006fef      0x3e0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_loc     0x00000000000073cf      0x1f5 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_loc     0x00000000000075c4       0x23 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_aranges  0x0000000000000000      0x878
+.debug_aranges  0x0000000000000000      0x890
  .debug_aranges
                 0x0000000000000000       0xc0 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_aranges
@@ -14128,17 +14125,19 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000708       0x48 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .debug_aranges
-                0x0000000000000750       0x40 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x0000000000000750       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .debug_aranges
-                0x0000000000000790       0x50 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+                0x0000000000000778       0x40 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .debug_aranges
-                0x00000000000007e0       0x20 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+                0x00000000000007b8       0x50 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
  .debug_aranges
-                0x0000000000000800       0x48 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x0000000000000808       0x20 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
  .debug_aranges
-                0x0000000000000848       0x30 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+                0x0000000000000828       0x48 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_aranges
+                0x0000000000000870       0x20 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_ranges   0x0000000000000000      0x9a0
+.debug_ranges   0x0000000000000000      0x960
  .debug_ranges  0x0000000000000000       0xf8 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_ranges  0x00000000000000f8       0x50 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_ranges  0x0000000000000148       0xb0 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14155,13 +14154,14 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_ranges  0x00000000000006a0       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_ranges  0x00000000000006c8      0x108 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_ranges  0x00000000000007d0       0x38 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_ranges  0x0000000000000808       0xa8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_ranges  0x00000000000008b0       0x40 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_ranges  0x00000000000008f0       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_ranges  0x0000000000000900       0x38 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_ranges  0x0000000000000938       0x68 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_ranges  0x0000000000000808       0x18 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_ranges  0x0000000000000820       0xa8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_ranges  0x00000000000008c8       0x40 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_ranges  0x0000000000000908       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_ranges  0x0000000000000918       0x38 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_ranges  0x0000000000000950       0x10 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_macro    0x0000000000000000     0xb03f
+.debug_macro    0x0000000000000000     0xb49b
  .debug_macro   0x0000000000000000      0x43d projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_macro   0x000000000000043d      0xaae projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_macro   0x0000000000000eeb       0x10 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
@@ -14259,26 +14259,27 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_macro   0x00000000000083ff       0x22 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_macro   0x0000000000008421      0x47b projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .debug_macro   0x000000000000889c       0x1c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_macro   0x00000000000088b8      0x45b projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_macro   0x0000000000008d13       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_macro   0x0000000000008d3b      0x54f projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000928a      0x26c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x00000000000094f6       0x5e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x0000000000009554       0x12 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x0000000000009566       0xfa projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x0000000000009660       0xee projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000974e      0x69a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x0000000000009de8      0x272 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000a05a       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000a06a       0x16 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_macro   0x000000000000a080      0x47d projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_macro   0x000000000000a4fd       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_macro   0x000000000000a50d       0x2e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_macro   0x000000000000a53b      0x464 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_macro   0x000000000000a99f      0x690 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .debug_macro   0x000000000000b02f       0x10 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_macro   0x00000000000088b8      0x45c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_macro   0x0000000000008d14      0x45b projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_macro   0x000000000000916f       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_macro   0x0000000000009197      0x54f projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x00000000000096e6      0x26c projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x0000000000009952       0x5e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x00000000000099b0       0x12 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x00000000000099c2       0xfa projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x0000000000009abc       0xee projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x0000000000009baa      0x69a projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x000000000000a244      0x272 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x000000000000a4b6       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x000000000000a4c6       0x16 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_macro   0x000000000000a4dc      0x47d projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_macro   0x000000000000a959       0x10 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_macro   0x000000000000a969       0x2e projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_macro   0x000000000000a997      0x464 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_macro   0x000000000000adfb      0x690 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_macro   0x000000000000b48b       0x10 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_line     0x0000000000000000     0xef62
+.debug_line     0x0000000000000000     0xf64f
  .debug_line    0x0000000000000000      0xda1 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_line    0x0000000000000da1      0x938 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_line    0x00000000000016d9      0xf28 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14296,57 +14297,60 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_line    0x0000000000008d1c      0x9a3 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_line    0x00000000000096bf      0xff7 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_line    0x000000000000a6b6      0xac7 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_line    0x000000000000b17d      0xc06 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_line    0x000000000000bd83      0xd6b projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_line    0x000000000000caee      0x974 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_line    0x000000000000d462      0xaea projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_line    0x000000000000df4c     0x1016 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_line    0x000000000000b17d      0x982 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_line    0x000000000000baff      0xc06 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_line    0x000000000000c705      0xd6b projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_line    0x000000000000d470      0x974 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_line    0x000000000000dde4      0xaea projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_line    0x000000000000e8ce      0xd81 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 
-.debug_str      0x0000000000000000    0x26cc1
- .debug_str     0x0000000000000000    0x1b3d7 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
+.debug_str      0x0000000000000000    0x26ce3
+ .debug_str     0x0000000000000000    0x1b3cf projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
                                       0x1b730 (size before relaxing)
- .debug_str     0x000000000001b3d7      0x348 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
+ .debug_str     0x000000000001b3cf      0x348 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
                                       0x1b0ab (size before relaxing)
- .debug_str     0x000000000001b71f      0x3d7 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_str     0x000000000001b717      0x3d7 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
                                       0x17758 (size before relaxing)
- .debug_str     0x000000000001baf6      0x147 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
+ .debug_str     0x000000000001baee      0x147 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/adc_18xx_43xx.o
                                       0x170f3 (size before relaxing)
- .debug_str     0x000000000001bc3d      0x5d4 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_str     0x000000000001bc35      0x5d4 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/clock_18xx_43xx.o
                                       0x17b1b (size before relaxing)
- .debug_str     0x000000000001c211       0x73 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_str     0x000000000001c209       0x73 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/chip_18xx_43xx.o
                                       0x17648 (size before relaxing)
- .debug_str     0x000000000001c284       0x3f projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_str     0x000000000001c27c       0x3f projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/gpio_18xx_43xx.o
                                       0x168aa (size before relaxing)
- .debug_str     0x000000000001c2c3       0xb9 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_str     0x000000000001c2bb       0xb9 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/sysinit_18xx_43xx.o
                                       0x175a9 (size before relaxing)
- .debug_str     0x000000000001c37c      0x3e5 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
+ .debug_str     0x000000000001c374      0x3e5 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/ssp_18xx_43xx.o
                                       0x172e9 (size before relaxing)
- .debug_str     0x000000000001c761      0x586 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
+ .debug_str     0x000000000001c759      0x586 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/i2c_18xx_43xx.o
                                       0x1788a (size before relaxing)
- .debug_str     0x000000000001cce7       0x40 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/crp.o
+ .debug_str     0x000000000001ccdf       0x40 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/crp.o
                                        0x2e11 (size before relaxing)
- .debug_str     0x000000000001cd27       0xc3 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/sysinit.o
+ .debug_str     0x000000000001cd1f       0xc3 projects/hagata_aux/temp/out/libs/board/lpc_startup/src/sysinit.o
                                       0x1a384 (size before relaxing)
- .debug_str     0x000000000001cdea       0xaf projects/hagata_aux/temp/out/libs/board/lpc_startup/src/vendor_interrupt.o
+ .debug_str     0x000000000001cde2       0xaf projects/hagata_aux/temp/out/libs/board/lpc_startup/src/vendor_interrupt.o
                                        0x2e80 (size before relaxing)
- .debug_str     0x000000000001ce99      0x209 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
+ .debug_str     0x000000000001ce91      0x209 projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
                                        0x3013 (size before relaxing)
- .debug_str     0x000000000001d0a2      0x3ee projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
+ .debug_str     0x000000000001d09a      0x3ee projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
                                       0x1b0a9 (size before relaxing)
- .debug_str     0x000000000001d490      0x9c2 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+ .debug_str     0x000000000001d488      0x9c2 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
                                       0x1bab7 (size before relaxing)
- .debug_str     0x000000000001de52      0x1a0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .debug_str     0x000000000001de4a      0x1a0 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
                                       0x1b55a (size before relaxing)
- .debug_str     0x000000000001dff2      0x332 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_str     0x000000000001dfea       0xac projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+                                      0x1a8e1 (size before relaxing)
+ .debug_str     0x000000000001e096      0x332 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
                                       0x1b3b4 (size before relaxing)
- .debug_str     0x000000000001e324     0x5cb8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_str     0x000000000001e3c8     0x5cb8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
                                       0x21208 (size before relaxing)
- .debug_str     0x0000000000023fdc       0x53 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_str     0x0000000000024080       0x53 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
                                       0x1a8d6 (size before relaxing)
- .debug_str     0x000000000002402f       0x91 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_str     0x00000000000240d3       0x91 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
                                       0x1a733 (size before relaxing)
- .debug_str     0x00000000000240c0     0x2c01 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
-                                      0x22e3c (size before relaxing)
+ .debug_str     0x0000000000024164     0x2b7f projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+                                      0x22d4e (size before relaxing)
 
 .comment        0x0000000000000000       0x68
  .comment       0x0000000000000000       0x68 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
@@ -14367,6 +14371,7 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
+ .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
  .comment       0x0000000000000068       0x69 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
@@ -14410,27 +14415,29 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000345       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
  .ARM.attributes
-                0x0000000000000379       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+                0x0000000000000379       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
  .ARM.attributes
-                0x00000000000003ad       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+                0x00000000000003ad       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
  .ARM.attributes
-                0x00000000000003e1       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+                0x00000000000003e1       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
  .ARM.attributes
-                0x0000000000000415       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+                0x0000000000000415       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
  .ARM.attributes
-                0x0000000000000449       0x34 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+                0x0000000000000449       0x34 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
  .ARM.attributes
-                0x000000000000047d       0x1e /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000000047d       0x34 projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
  .ARM.attributes
-                0x000000000000049b       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000000000004b1       0x1e /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000000000004cf       0x1e /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x00000000000004cf       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00000000000004ed       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000000000503       0x1e /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000000000000521       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x0000000000000521       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000555       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_frame    0x0000000000000000     0x1564
+.debug_frame    0x0000000000000000     0x157c
  .debug_frame   0x0000000000000000      0x204 projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board.o
  .debug_frame   0x0000000000000204       0x5c projects/hagata_aux/temp/out/libs/board/edu_ciaa_nxp/src/board_sysinit.o
  .debug_frame   0x0000000000000260      0x1f4 projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/uart_18xx_43xx.o
@@ -14447,15 +14454,16 @@ OUTPUT(projects/hagata_aux/temp/out/temp.elf elf32-littlearm)
  .debug_frame   0x0000000000000f74       0x74 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/core/src/sapi_cyclesCounter.o
  .debug_frame   0x0000000000000fe8      0x190 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
  .debug_frame   0x0000000000001178       0x84 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_tick.o
- .debug_frame   0x00000000000011fc       0xa4 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
- .debug_frame   0x00000000000012a0       0xb8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
- .debug_frame   0x0000000000001358       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
- .debug_frame   0x0000000000001380       0xcc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
- .debug_frame   0x000000000000144c       0x6c projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
- .debug_frame   0x00000000000014b8       0x2c /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00000000000014e4       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000001518       0x2c /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001544       0x20 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000011fc       0x58 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+ .debug_frame   0x0000000000001254       0xa4 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_gpio.o
+ .debug_frame   0x00000000000012f8       0xb8 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/usb/device/src/sapi_usb_device.o
+ .debug_frame   0x00000000000013b0       0x28 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
+ .debug_frame   0x00000000000013d8       0xcc projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
+ .debug_frame   0x00000000000014a4       0x2c projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
+ .debug_frame   0x00000000000014d0       0x2c /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000014fc       0x34 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000001530       0x2c /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000155c       0x20 /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
 Cross Reference Table
 
@@ -15196,7 +15204,9 @@ _write                                            /home/jpablo/fiuba/embebidos/C
 _write_r                                          /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
                                                   /home/jpablo/fiuba/embebidos/CIAA_Software_1.1-linux-x64/tools/gcc-arm-embedded/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
 adcInit                                           projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+                                                  projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 adcRead                                           projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_adc.o
+                                                  projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 boardInit                                         projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/board/src/sapi_board.o
                                                   projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 bss_init                                          projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
@@ -15240,7 +15250,6 @@ delay                                             projects/hagata_aux/temp/out/l
 delayInaccurateMs                                 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
                                                   projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 delayInaccurateUs                                 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
-                                                  projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
                                                   projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 delayInit                                         projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_delay.o
                                                   projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
@@ -15255,7 +15264,6 @@ dht11Init                                         projects/hagata_aux/temp/out/l
 dht11Read                                         projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_dht11.o
 dht11_timeout                                     projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_dht11.o
 dht11_timeout_max                                 projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_dht11.o
-dht22_init                                        projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 display7SegmentClear                              projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_7_segment_display.o
 display7SegmentInit                               projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_7_segment_display.o
 display7SegmentOutputs                            projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_7_segment_display.o
@@ -15359,7 +15367,6 @@ lcdInit                                           projects/hagata_aux/temp/out/l
 lcdSendEnter                                      projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 lcdSendString                                     projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
 lcdSendStringRaw                                  projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/external_peripherals/src/sapi_lcd.o
-leer_datos_dht                                    projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
 main                                              projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
                                                   projects/hagata_aux/temp/out/libs/cmsis_core/src/armv7m_startup.o
 makeCtrlWord                                      projects/hagata_aux/temp/out/libs/board/lpc_chip_43xx/src/gpdma_18xx_43xx.o
@@ -15479,6 +15486,7 @@ uartRxReady                                       projects/hagata_aux/temp/out/l
 uartTxReady                                       projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
 uartTxWrite                                       projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
 uartWriteByte                                     projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
+                                                  projects/hagata_aux/temp/out/projects/hagata_aux/temp/src/main.o
                                                   projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/abstract_modules/src/sapi_stdio.o
 uartWriteByteArray                                projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o
 uartWriteString                                   projects/hagata_aux/temp/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_uart.o

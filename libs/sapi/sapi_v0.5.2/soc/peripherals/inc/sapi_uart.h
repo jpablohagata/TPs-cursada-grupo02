@@ -33,6 +33,8 @@
 
 /* Date: 2016-02-26 */
 
+#define SAPI_USE_INTERRUPTS
+
 #ifndef _SAPI_UART_H_
 #define _SAPI_UART_H_
 

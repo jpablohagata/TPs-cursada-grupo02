@@ -78,14 +78,18 @@ int main (void) {
 
 			send_ok = false;
 			gpioWrite(LED1,TRUE);
+			uartWriteString(UART_USB, "AT+CIPMUX=0\r\n");
 			uartWriteString(UART_232, "AT+CIPMUX=0\r\n");
 			delay(500);
+			uartWriteString(UART_USB, "AT+CIPSTART=\"TCP\",\"emb.hagata.me\",80\r\n");
 			uartWriteString(UART_232, "AT+CIPSTART=\"TCP\",\"emb.hagata.me\",80\r\n");
 			delay(4000);
 			//uartWriteString(UART_232, "AT+CIPSEND=59\r\n");
+			uartWriteString(UART_USB, cipsend);
 			uartWriteString(UART_232, cipsend);
 			delay(2000);
 			//uartWriteString(UART_232, "GET /?temp=20&hum=0&no-out HTTP/1.1\r\nHost:emb.hagata.me\r\n\r\n");
+			uartWriteString(UART_USB, getreq);
 			uartWriteString(UART_232, getreq);
 			delay(3000);
 			gpioWrite(LED1,FALSE);
